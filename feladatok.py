@@ -1,16 +1,16 @@
 #Első feladat
 
-#for i in range(1,11):
-    #print(i,"---",1/i)
+for i in range(1,11):
+    print(i,"---",1/i)
 
 #Második feladat
 
-#a=int(input("Kérem a hatványalapot: "))
-#b=int(input("Kérem a hatványkitevőt: "))
+a=int(input("Kérem a hatványalapot: "))
+b=int(input("Kérem a hatványkitevőt: "))
 
-#hatvanyertek=a**b
+hatvanyertek=a**b
 
-#print(hatvanyertek)
+print(hatvanyertek)
 
 #Harmadik feladat
 
@@ -30,3 +30,9 @@ print(-(a-b))
 
 #Ötödik feladat
 
+osszeg=0
+for i in range (0,99):
+    szam=int(input("Kérek egy számot: "))
+    osszeg=osszeg+szam
+    if osszeg>=100:
+        break
